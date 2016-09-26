@@ -7,6 +7,13 @@ using namespace std;
 #include "Time.h"
 #include "Time.h" // test ifndef
 
+string should(string test, bool passed) {
+  // Check or cross if pass or fail respectivly
+  string prefix = (passed ? "\u2714" : "\u2718");
+  
+  return prefix + " Should " + test;
+}
+
 int main() {
   Time time;
   
