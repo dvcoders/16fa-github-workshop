@@ -40,6 +40,9 @@ elif choice == '2':
 elif choice == '5':
    print(num1,"*",num2,"=", multiply(num1,num2)
 elif choice == '4':
-   print(num1,"/",num2,"=", divide(num1,num2))
+   if num2 = 0
+      print(num1,"/"num2,"+", "Undifined")
+   else
+      print(num1,"/",num2,"=", divide(num1,num2))
 else:
    print("Invalid input")
