@@ -7,3 +7,5 @@
 4. Make your FIRST Pull Request to this repository
 5. Wait for review and merge
 6. :tada: Let's celebrate your first open source contribution
+
+[Workshop slides](http://slides.com/kangbolu/github/fullscreen#/)
