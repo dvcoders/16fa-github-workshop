@@ -4,8 +4,12 @@
 #define TIME_H
 
 class Time {
+private:
+  int hours;
+  int minutes;
+  int seconds;
 public:
-  int getHours() const { return hour; }
+  int getHours() const { return hours; }
   bool setHours(int);
   
   int getMinutes() const { return minutes; }
@@ -14,14 +18,9 @@ public:
   int getSeconds() const { return seconds; }
   bool setSeconds(int);
   
-  double timeInHours() const;
-  double timeInMinutes() const;
-  double timeInSeconds() const;
-  
-private:
-  int hours
-  int minutes;
-  int seconds;
+  double timeInHours() const { return hour + (minutes / 60.0) + (seconds / 3600.0); }
+  double timeInMinutes() const { return hour * 60.0 + minutes + (seconds / 60.0); }
+  double timeInSeconds() const { return hour * 3600.0 + minutes * 60.0 + seconds };
 };
 
 #endif // TIME_H
