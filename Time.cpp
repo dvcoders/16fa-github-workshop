@@ -2,6 +2,12 @@
 
 #include "Time.h"
 
+Time::Time() {
+  hours = 0;
+  minutes = 0;
+  seconds = 0;
+}
+
 bool Time::setHours(int val) {
   if (val < 0) {
     hours = 0;
