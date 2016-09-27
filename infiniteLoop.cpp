@@ -5,7 +5,7 @@ int main () {
 	int i = 0;
 
 	while (i < 5) {
-		cout << "Hello World!" << endl;
+    cout << "Hello World!" << endl;
     i++;
 	}
 
