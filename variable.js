@@ -1,2 +1,2 @@
-var name = "Dvcoders";
+var name = "dvcoders";
 console.log(name);
