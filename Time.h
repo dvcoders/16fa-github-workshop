@@ -19,7 +19,7 @@ public:
   double timeInSeconds() const;
   
 private:
-  int hours
+  int hours;
   int minutes;
   int seconds;
 };
