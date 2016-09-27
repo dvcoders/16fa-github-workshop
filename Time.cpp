@@ -11,11 +11,11 @@ Time::Time() {
 bool Time::setHours(int val) {
   if (val < 0) {
     hours = 0;
-    return true;
+    return false;
   }
   
   hours = val;
-  return false;
+  return true;
 }
 
 bool Time::setMinutes(int val) {
