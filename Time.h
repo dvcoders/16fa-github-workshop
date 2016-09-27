@@ -5,7 +5,8 @@
 
 class Time {
 public:
-  int getHours() const { return hour; }
+  Time();
+  int getHours() const { return hours; }
   bool setHours(int);
   
   int getMinutes() const { return minutes; }
@@ -19,7 +20,7 @@ public:
   double timeInSeconds() const;
   
 private:
-  int hours
+  int hours;
   int minutes;
   int seconds;
 };
