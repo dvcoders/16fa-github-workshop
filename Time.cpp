@@ -41,5 +41,5 @@ double Time::timeInMinutes() const {
 };
 
 double Time::timeInSeconds() const {
-  return (hours * 60 + minutes) * 60 + seconds;
+  return (hours * 60.0 + minutes) * 60.0 + seconds;
 };
