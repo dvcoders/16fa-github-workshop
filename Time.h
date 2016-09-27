@@ -5,6 +5,7 @@
 
 class Time {
 public:
+  Time();
   int getHours() const { return hours; }
   bool setHours(int);
   
