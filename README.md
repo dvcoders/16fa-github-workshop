@@ -12,7 +12,7 @@
 ### Link to Offical Github Tutorials: 
 [Github Guides](https://guides.github.com/)
 
-### Links to useful Github Chrome Plugins:
-[Awesome Autocomplete for Github：Simple and discreet extension that enhances GitHub's search](https://chrome.google.com/webstore/detail/awesome-autocomplete-for/djkfdjpoelphhdclfjhnffmnlnoknfnd/related?hl=en-US)
-[GitHub Repository Size: Get Github repository size](https://chrome.google.com/webstore/detail/github-repository-size/apnjnioapinblneaedefcnopcjepgkci/related?hl=en-US)
-[Octotree: Extension to show code tree for GitHub.](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?hl=en-US)
+### Links to useful Github Chrome Extensions:
+1. Simple and discreet extension that enhances GitHub's search: [Awesome Autocomplete for Github](https://chrome.google.com/webstore/detail/awesome-autocomplete-for/djkfdjpoelphhdclfjhnffmnlnoknfnd/related?hl=en-US)
+2. Get Github repository size: [GitHub Repository Size](https://chrome.google.com/webstore/detail/github-repository-size/apnjnioapinblneaedefcnopcjepgkci/related?hl=en-US)
+3. Extension to show code tree for GitHub: [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?hl=en-US)
