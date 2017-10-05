@@ -1,6 +1,6 @@
 // Implements Time class methods
 
-#include "Time.h"
+#include<Time.h>
 
 Time::Time() {
   hours = 0;
